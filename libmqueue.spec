@@ -12,6 +12,7 @@ URL:		http://www.geocities.com/wronski12/posix_ipc/index.html
 License:	GPL
 Source0:	%{name}-%{version}.tar.bz2
 Group:		System/Libraries
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 POSIX message queues are part of IPC used to exchange messages
