@@ -1,6 +1,6 @@
 %define	name	libmqueue
 %define	version	4.41
-%define	release	%mkrel 4
+%define	release	%mkrel 5
 %define	major	4
 %define libname	%mklibname mqueue %{major}
 
