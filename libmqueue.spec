@@ -8,7 +8,7 @@ Summary:	POSIX message queues
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-URL:		http://www.geocities.com/wronski12/posix_ipc/index.html
+URL:		https://www.geocities.com/wronski12/posix_ipc/index.html
 License:	GPL
 Source0:	%{name}-%{version}.tar.bz2
 Group:		System/Libraries
