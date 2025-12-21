@@ -14,6 +14,11 @@ Source0:	%{name}-%{version}.tar.bz2
 Group:		System/Libraries
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 POSIX message queues are part of IPC used to exchange messages
 between processes
